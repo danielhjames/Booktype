@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Booktype 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-16 11:34+0100\n"
+"POT-Creation-Date: 2015-09-16 12:32+0100\n"
 "PO-Revision-Date: 2015-05-15 11:52+0100\n"
 "Last-Translator: Daniel James <daniel.james@sourcefabric.org>\n"
 "Language-Team: Sourcefabric Localization <contact@sourcefabric.org>\n"
@@ -2010,6 +2010,7 @@ msgid "Find"
 msgstr ""
 
 #: apps/edit/templates/edit/edit_strings.html:41
+#: apps/edit/templates/edit/panel_aloha.html:39
 msgid "Next &gt;"
 msgstr ""
 
@@ -2245,10 +2246,6 @@ msgstr ""
 
 #: apps/edit/templates/edit/panel_aloha.html:38
 msgid "&lt; Prev"
-msgstr ""
-
-#: apps/edit/templates/edit/panel_aloha.html:39
-msgid "Next $gt;"
 msgstr ""
 
 #: apps/edit/templates/edit/panel_aloha.html:53
