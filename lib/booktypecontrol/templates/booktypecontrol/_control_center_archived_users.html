@@ -18,7 +18,7 @@
                             </button>
                         </div>
                         {% if person.is_superuser %}
-                        <b class="label label-default">{% trans "superuser" %}</b>
+                        <b class="label label-default">{% trans "admin" %}</b>
                         {% endif %}                        
                         {% if not person.is_active %}
                         <b class="label label-warning">{% trans "archived" %}</b>

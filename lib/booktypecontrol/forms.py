@@ -437,7 +437,7 @@ class AddPersonForm(BaseControlForm, forms.ModelForm):
     )
 
     is_superuser = forms.BooleanField(
-        label=_("This person is a superuser"),
+        label=_("This person is an admin"),
         required=False
     )
 
@@ -589,7 +589,7 @@ class EditPersonInfoForm(BaseControlForm, forms.ModelForm):
     )
 
     is_superuser = forms.BooleanField(
-        label=_("This person is a superuser"),
+        label=_("This person is an admin"),
         required=False
     )
     is_active = forms.BooleanField(
